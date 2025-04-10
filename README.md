@@ -36,5 +36,4 @@ Follow the on-screen prompts to interact with the application. The main menu pro
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-## Acknowledgements
-Ria Ghosh
+
