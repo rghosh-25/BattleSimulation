@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DB093002-A896-4EA8-B26A-D7EBFE4B84D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleSimulation.Contracts", "Utilities\BattleSimulation.Contracts.csproj", "{6041184E-62F1-4966-9602-87F6AA1EE814}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{D55920C1-014C-45D3-9618-DA372A9A42A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleSimulation.Controllers", "BattleSimulation.Controllers\BattleSimulation.Controllers.csproj", "{1866D3CA-2979-4BF7-88D8-1B6F35DC3ED3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Managers", "Managers", "{25FD6BDA-5BD6-4504-AF1B-3502AB75C8EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleSimulation.Manager", "BattleSimulation.Manager\BattleSimulation.Manager.csproj", "{9A105EAA-1262-47F0-BBEC-ABF142FEF84A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleSimulation.Tests", "BattleSimulation.Tests\BattleSimulation.Tests.csproj", "{D087F09B-F6EB-481C-BD5B-AEA37BCAA1F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6041184E-62F1-4966-9602-87F6AA1EE814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6041184E-62F1-4966-9602-87F6AA1EE814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6041184E-62F1-4966-9602-87F6AA1EE814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6041184E-62F1-4966-9602-87F6AA1EE814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1866D3CA-2979-4BF7-88D8-1B6F35DC3ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1866D3CA-2979-4BF7-88D8-1B6F35DC3ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1866D3CA-2979-4BF7-88D8-1B6F35DC3ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1866D3CA-2979-4BF7-88D8-1B6F35DC3ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A105EAA-1262-47F0-BBEC-ABF142FEF84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A105EAA-1262-47F0-BBEC-ABF142FEF84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A105EAA-1262-47F0-BBEC-ABF142FEF84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A105EAA-1262-47F0-BBEC-ABF142FEF84A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D087F09B-F6EB-481C-BD5B-AEA37BCAA1F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D087F09B-F6EB-481C-BD5B-AEA37BCAA1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D087F09B-F6EB-481C-BD5B-AEA37BCAA1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D087F09B-F6EB-481C-BD5B-AEA37BCAA1F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6041184E-62F1-4966-9602-87F6AA1EE814} = {D55920C1-014C-45D3-9618-DA372A9A42A1}
+		{1866D3CA-2979-4BF7-88D8-1B6F35DC3ED3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9A105EAA-1262-47F0-BBEC-ABF142FEF84A} = {25FD6BDA-5BD6-4504-AF1B-3502AB75C8EF}
+		{D087F09B-F6EB-481C-BD5B-AEA37BCAA1F8} = {DB093002-A896-4EA8-B26A-D7EBFE4B84D3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42861D08-A8BA-47A6-AA7D-DCA1212F11B4}
+	EndGlobalSection
+EndGlobal
